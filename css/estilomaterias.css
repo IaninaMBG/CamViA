@@ -1,0 +1,387 @@
+body
+{
+background-color: rgb(223, 203, 187);
+}
+
+.maths
+{
+  font-size: 32px; 
+  color: rgb(207, 127, 127);
+  font-family: 'DM Sans', sans-serif;  
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+div{
+    border-radius: 5px;
+    color: rgb(205,207,212);
+    background-color:rgb(100, 90, 81);
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+ 
+}
+h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+    width: 95px;
+    height: 50px;
+    margin-top: -15px;
+}
+
+nav{
+    font-family:'DM Sans', sans-serif;
+    height: 40px;
+    background: rgba(143, 179, 235, 0.856);
+    width: 100%;
+    margin-top: 5px;
+    position: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+ul, ol{
+    list-style:none;
+}
+.menu > li{
+    float: left;
+}
+.menu li a{
+    color:rgb(207, 127, 127);
+    text-decoration:none;
+    display:block;
+    padding:10px 12px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif; 
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.menu li a:hover{
+    background-color:rgb(202, 202, 202);
+    color:rgb(185, 100, 100);
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+.menu li:hover > ul{
+    display: block;
+}
+
+.lista li a{
+    background-color: rgba(205, 213, 226, 0.651);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main {
+    background-color: rgba(143, 179, 235, 0.856);   
+    font-size: 18px;
+    float: right;
+    width: 140px;
+    height: 1930px;
+
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    font-family: 'DM Sans', sans-serif; 
+
+    border-radius: 5px;
+}
+
+
+
+
+
+.temario
+{
+font-family: 'DM Sans', sans-serif; 
+text-align: center;
+margin-top: 350px;
+font-size: 26px;
+border-radius: 5px;
+}
+
+.maintext
+{
+font-family: 'DM Sans', sans-serif; 
+text-align: center;
+margin-top: 450px;
+font-size: 26px;
+border-radius: 5px;
+}
+
+.pagas
+{
+    font-family: 'DM Sans', sans-serif; 
+   font-size: 26px;
+    margin-top: 250px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+article
+{
+background-color: rgb(170, 129, 94);  
+height: 1850px;
+width: 1150px;
+margin-right: 30px;
+margin-left: 20px;
+margin-top: -10px;
+margin-top: 10px;
+text-align: center;
+border-radius: 5px;
+}
+.subtitulo
+{
+    color: rgb(100, 90, 81);
+    background-color:rgb(205,207,212);
+    border-radius: 5px;
+padding-right: 10px;
+padding-left: 10px;
+margin-left: 50px;
+margin-right: 50px;
+
+text-align: center;
+font-family: 'DM Sans', sans-serif; 
+font-size: 30px;
+}
+
+
+.texto{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+
+}
+
+.antigua {
+   width: 200px;
+   height: 100px; 
+   float: right;
+   margin-right: 10px;
+   margin-top: 10px; ;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.moderna
+{border-radius: 5px;
+
+    width: 200px;
+    height: 100px; 
+    float: left;
+    margin-left: 10px;
+    margin-top: -25px;
+    border: 2px solid black;
+}
+
+.dias
+{
+margin-top: 175px;
+ color: rgb(100, 90, 81);
+background-color:rgb(205,207,212);
+padding-right: 10px;
+padding-left: 10px;
+margin-left: 50px;
+margin-right: 50px;
+text-align: center;
+font-family: 'DM Sans', sans-serif; 
+font-size: 30px;
+width: 575px;
+height: 50px;
+border-radius: 5px;
+}
+
+.mapa
+
+{
+height: 550px;
+widows: 300px;
+border: 2px solid black;
+border-radius: 5px;
+}
+
+
+.relleno
+{
+    background-color:rgb(100, 90, 81);
+    height: 200px;
+    width: 1130px;
+    margin-top: 40px;
+    float: right;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+.cuadro
+{
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: 2px solid black;
+    width: 600px;
+   height: 250px;
+}
+
+.docente
+{
+
+color: rgb(100, 90, 81);  
+background-color:rgb(205,207,212);
+margin-right: 500px;
+width: 350px;
+height: 50px;
+text-align: center;
+font-family: 'DM Sans', sans-serif; 
+font-size: 30px; 
+margin-left: 750px;
+margin-top: -75px;
+
+border-radius: 5px;
+}
+.profe
+{
+ height: 150px;
+ width: 170px;   
+margin-left: 50px;
+margin-top: 25px;
+border: 2px solid black;
+border-radius: 5px;
+}
+
+.nombre
+{
+font-family: 'DM Sans', sans-serif; 
+margin-right: 180px;
+float: right;
+border-radius: 5px;
+}
+
+
+.espacio
+{
+color: rgb(170, 129, 94);  
+}
+
+.bibliografia
+{
+float: left; 
+margin-top: 50px;
+font-size: 32px;
+font-family: 'DM Sans', sans-serif; 
+height: 50px;
+width: 1100px;
+color: rgb(100, 90, 81);  
+background-color:rgb(205,207,212);
+margin-left: 20px;
+border-radius: 5px;
+}
+
+.libro1
+{
+    height: 200px;
+    margin-left: 115px;
+    margin-right: 115px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.nombre
+{
+margin-left: 110px;
+margin-right: 185px;
+border-radius: 5px;
+}
+
+.apoyo
+{
+    border-radius: 5px;
+    float: left; 
+margin-top: 50px;
+font-size: 32px;
+font-family: 'DM Sans', sans-serif; 
+height: 50px;
+width: 1100px;
+color: rgb(100, 90, 81);  
+background-color:rgb(205,207,212);
+margin-left: 20px;
+}
+
+.canal
+{border-radius: 5px;
+height: 150px;
+float: left;
+margin-left: 100px;
+margin-right: 100px;
+border: 2px solid black;
+}
+
+.canalinfo
+{border-radius: 5px;
+float: left;
+margin-left: 125px;
+font-size: 20px;
+font-family: 'DM Sans', sans-serif; 
+}
+.canalinfo2
+{border-radius: 5px;
+float: left;
+margin-left: 215px;
+font-size: 20px;
+font-family: 'DM Sans', sans-serif; 
+}
+
+.canalinfo3
+{border-radius: 5px;
+    float: left;
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;     
+}
+#comentarios{
+    font-size: 40px;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#chat{
+    background-color: rgb(215, 217, 219);
+    width: 1850px;
+    height: 400px;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+#icono{
+    margin-right: 2000px;
+    width: 50px;  
+}
+.piedepagina{
+    margin-top: 20px;
+    background-color: rgb(205,207,212);
+}
+.redes-img{
+    width: 750px;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.redes{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(207, 127, 127);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.redes li{
+    display: inline;
+    margin: 100px;
+}

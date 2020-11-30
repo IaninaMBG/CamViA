@@ -1,0 +1,118 @@
+body{
+    background: rgb(223, 203, 187);
+}
+.encabezado{
+    color: rgb(205,207,212);
+    background-color:rgb(100, 90, 81);
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+    width: 95px;
+    height: 70px;
+    margin-top: -35px;
+}
+.usuario{
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-top: -85px;
+}
+
+nav{
+    height: 40px;
+    background: rgba(143, 179, 235, 0.856);
+    width: 100%;
+    margin-top: 5px;
+    position: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif; 
+    color: rgb(207, 127, 127);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 125px;
+    margin-left: 127px;
+}
+a:hover{
+    background-color: rgb(202, 202, 202);
+}
+a:active{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main{
+    background-color: rgb(170, 129, 94);
+    margin-top: 250px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    font-size: 60px;
+    color: rgb(143, 179, 235, 0.856);
+    border-radius: 5px;
+}
+.ileras{
+    height: 780px;
+    width: 1660px;
+    font-family: 'DM Sans', sans-serif; 
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgba(199, 171, 147, 0.877); 
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-left: 13px;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+    font-size: 22px;
+    background-color:rgba(199, 171, 147, 0.877);  
+    color: rgb(21, 30, 43);
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    margin-left: -60px;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    color: rgba(105, 109, 112, 0.904);
+    font-size: 22px;
+}
+.link:active{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.link:visited{
+    border:rgba(82, 96, 107, 0.904) solid;
+}
+.trabajo{
+    text-decoration: none;
+    color: rgba(105, 109, 112, 0.904);
+    font-size: 22px;
+}
+.trabajo:active{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.trabajo:visited{
+    border:rgba(82, 96, 107, 0.904) solid;
+}

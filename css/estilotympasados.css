@@ -1,0 +1,225 @@
+body{
+    background: rgb(223, 203, 187);
+}
+.encabezado{
+    color: rgb(205,207,212);
+    background-color:rgb(100, 90, 81);
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+    width: 95px;
+    height: 70px;
+    margin-top: -35px;
+}
+
+nav{
+    font-family:'DM Sans', sans-serif;
+    height: 40px;
+    background: rgba(143, 179, 235, 0.856);
+    width: 100%;
+    margin-top: 5px;
+    position: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+ul, ol{
+    list-style:none;
+}
+.menu > li{
+    float: left;
+}
+.menu li a{
+    color:rgb(207, 127, 127);
+    text-decoration:none;
+    display:block;
+    padding:10px 12px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif; 
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 65px;
+    margin-left: 65px;
+    margin-top: -30px;
+}
+.menu li a:hover{
+    background-color:rgb(202, 202, 202);
+    color:rgb(185, 100, 100);
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.lista li a{
+    background-color: rgba(205, 213, 226, 0.651);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contenido{
+    background-color: rgb(148, 126, 107);
+    border-radius: 5px;
+    margin-top: 35px;
+}
+.titulo-taller{
+    font-size: 40px;
+    color: rgb(207, 127, 127);
+    text-align: center;
+    font-family: 'Kaushan Script', cursive; 
+    background-color: rgb(202, 202, 202);
+    border: rgb(153, 153, 153) solid;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+.titulo-muestra{
+    font-size: 40px;
+    color: rgba(143, 179, 235, 0.856);
+    text-align: center;
+    font-family: 'Kaushan Script', cursive; 
+    background-color: rgb(202, 202, 202);
+    border: rgb(153, 153, 153) solid;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+.seccion{
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'DM Sans', sans-serif; 
+}
+.img-taller{
+
+}
+.img-1{
+    width: 400px;
+    height: 160px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.img-taller-2{
+    display: flex;
+}
+.img-2{
+    width: 190px;
+    height: 150px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.img-3{
+    width: 400px;
+    height: 300px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.texto-taller{
+    color: black;
+    padding-left: 10px;
+    text-align: justify;
+}
+.texto{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.img-texto{
+    display: flex;
+}
+.img-4{
+    width: 700px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.img-5{
+    width: 400px;
+    height: 500px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+#comentarios{
+    font-size: 40px;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#comentarios{
+    font-size: 30px;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+ul{
+    list-style: none;
+}
+#chat{
+    background-color: rgb(215, 217, 219);
+    width: 1850px;
+    height: 200px;
+    padding-top: 2px;
+    border-radius: 5px;
+}
+#icono{
+    width: 50px;  
+}
+#inscripcion{
+    background-color: rgb(207, 127, 127);
+    border: rgb(168, 95, 95) solid;
+    width: 1850px;
+    height: 100px;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 60px;   
+}
+#aqui{
+    color: white;  
+    font-size: 29px;
+    margin-left: 550px;
+}
+
+#entre{
+    background-color: rgb(168, 95, 95);  
+    color: white;
+    font-size: 29px;
+    width: 250px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 650px;
+}
+.piedepagina{
+    margin-top: 20px;
+    background-color: rgb(205,207,212);
+}
+.redes-img{
+    width: 750px;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.redes{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(207, 127, 127);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.redes li{
+    display: inline;
+    margin: 100px;
+}

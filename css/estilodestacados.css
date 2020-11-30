@@ -1,0 +1,229 @@
+body{
+    background: rgb(223, 203, 187);  
+}
+.encabezado{
+    color: rgb(205,207,212);
+    background-color:rgb(100, 90, 81);
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+    width: 95px;
+    height: 70px;
+    margin-top: -35px;
+}
+
+nav{
+    font-family:'DM Sans', sans-serif;
+    height: 40px;
+    background: rgba(143, 179, 235, 0.856);
+    width: 100%;
+    margin-top: 5px;
+    position: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+ul, ol{
+    list-style:none;
+}
+.menu > li{
+    float: left;
+}
+.menu li a{
+    color:rgb(207, 127, 127);
+    text-decoration:none;
+    display:block;
+    padding:10px 12px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif; 
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.menu li a:hover{
+    background-color:rgb(202, 202, 202);
+    color:rgb(185, 100, 100);
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+.menu li:hover > ul{
+    display: block;
+}
+
+.lista li a{
+    background-color: rgba(205, 213, 226, 0.651);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.division{
+    display: inline-flex;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+}
+.texto{
+
+}
+.titulo{
+    color: black;
+    background-color: rgb(202, 202, 202);
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 5px;
+    border:  rgba(205, 213, 226, 0.651) solid;
+    font-size: 45px;
+    padding: 20px 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 96%;
+}
+.contenido{
+    display: inline-flex; 
+    width: 100%;  
+}
+.tarjeta{
+    display: inline-flex;
+    background-color:rgb(100, 90, 81);
+    border-radius: 5px;
+    height: 600px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.tarjeta1{
+    background-color: rgb(82, 73, 66);
+    width: 40%;
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+.tarjeta-1{
+    display: inline-flex;
+
+}
+.tarjeta-1-1{
+    
+}
+.tarjeta-1-1-titulo{
+    background-color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+.tarjeta-1-1-img{
+    width: 350px;
+    height: 325px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.tarjeta-1-2{
+
+}
+.tarjeta-1-2-img{
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.tarjeta-1-2-titulo{
+    background-color: white;
+    color:rgb(207, 127, 127);
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tarjeta-1-2-participantes{
+    background-color: white;
+    color: rgba(143, 179, 235, 0.856);
+    font-size: 25px;
+    padding: 20px 10px;
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tarjeta-1-2-participantes li{
+    padding-bottom: 9px;
+}
+.tarjeta-fecha{
+    color: rgba(205, 213, 226, 0.651);
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(66, 59, 53);
+    border-radius: 5px;
+}
+.tarjeta-2{
+    margin-right: 10px;
+    width: 60%;
+}
+.tarjeta-2-contenido{
+    display: inline-flex;
+}
+.tarjeta-2-titulo{
+    font-size: 40px;
+    color: rgba(143, 179, 235, 0.856);
+    margin-left: 20px;
+    
+}
+.tarjeta-2-texto{
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.tarjeta-2-img{
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.año{
+    background: rgba(143, 179, 235, 0.856);
+    border-radius: 5px;
+    width: 10%;
+    height: 1320px;
+}
+.año li{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.piedepagina{
+    margin-top: 20px;
+    background-color: rgb(205,207,212);
+}
+.redes-img{
+    width: 750px;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.redes{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(207, 127, 127);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.redes li{
+    display: inline;
+    margin: 100px;
+}

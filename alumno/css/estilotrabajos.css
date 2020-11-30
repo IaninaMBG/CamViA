@@ -1,0 +1,229 @@
+.link{
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif; 
+    color: rgb(207, 127, 127);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 125px;
+    margin-left: 127px;
+}
+.link a:hover{
+    background-color: rgb(202, 202, 202);
+}
+.link a:active{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo2{
+    border-radius: 5px;
+    color: rgb(205,207,212);
+    background-color:rgb(100, 90, 81);
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+ 
+}
+h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+    width: 95px;
+    height: 50px;
+    margin-top: -15px;
+}
+.usuario{
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-top: -85px;
+}
+nav{
+    height: 40px;
+    background: rgba(143, 179, 235, 0.856);
+    width: 100%;
+    margin-top: 5px;
+    position: center;
+    padding-top: 10px;
+   border-radius: 5px;
+}
+
+body 
+{
+background-color:rgb(223, 203, 187);
+font-family: 'DM Sans', sans-serif; 
+}
+
+.relleno
+{
+    background-color: rgb(170, 129, 94);  
+    height: 845px;
+    width: 1500px;
+    margin-left: 80px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(170, 129, 94); 
+}
+
+.titulo
+{
+background-color:rgb(205,207,212);
+color: rgb(21, 30, 43);
+border-radius: 5px;
+padding-right: 10px;
+padding-left: 10px;
+margin-left: 40px;
+margin-right: 40px;
+padding: 10px;
+text-align: center;
+font-family: 'DM Sans', sans-serif; 
+font-size: 30px;
+}
+
+.mes
+{
+    margin-top: 10px;
+    color: rgb(230, 161, 161); 
+    font-size: 28px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif; 
+}
+
+.mes2
+{
+  background-color: rgb(230, 161, 161); 
+  height: 3px;
+}
+
+.trabajo
+{
+font-size: 28px;
+float: left;
+margin-top: 20px;
+margin-left: 70px;
+color: rgb(21, 30, 43);
+}
+
+.trabajo1
+{
+width: 200px;
+height: 150px;
+border-radius: 5px;
+float: left;
+margin-top: 60px;
+margin-left: -150px;
+}
+
+p 
+{
+color: black;
+margin-top: 60px;
+margin-right: 10px;
+margin-left: 265px;
+font-family: 'Kaushan Script', cursive;
+
+}
+
+.fechalimite
+{
+  color: rgba(118, 166, 243, 0.856);  
+font-size: 27px;
+margin-left: -400px;
+margin-top: 30px;
+}
+
+.entrega
+
+{
+ background-color: rgba(74, 141, 250, 0.856);  
+color: white;
+ font-size: 29px;
+margin-left: 800px;
+margin-top: -34px;
+width: 250px;
+border-radius: 5px;
+}
+
+.calificacion
+{
+ margin-top: 50px;
+color: white;
+ background-color:rgba(89, 147, 240, 0.856);
+text-align: left;
+padding:15px;
+font-size: 28px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 5px;
+}
+
+.calificacion1
+{
+ margin-top: 50px;
+ color: rgba(89, 147, 240, 0.856);
+ background-color: rgba(89, 147, 240, 0.856);
+text-align: left;
+padding:15px;
+font-size: 28px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.calificacion2
+{
+ margin-top: -130px;
+ color: rgb(205,207,212);
+ background-color:rgb(205,207,212);
+text-align: left;
+padding:15px;
+font-size: 28px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.calificacion3
+{
+    color: black;
+    background-color:rgb(205,207,212);
+   text-align: left;
+   padding:15px;
+   font-size: 28px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 60px;
+
+}
+
+.calificacion4
+{
+    margin-top: 0px;
+    color: rgba(89, 147, 240, 0.856);
+    background-color: rgba(89, 147, 240, 0.856);
+   text-align: left;
+   padding:15px;
+   font-size: 28px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-radius: 5px;
+  
+   }
+.contenido{
+    display: flex;
+}
+.flecha{
+    background-color:rgb(223, 203, 187);
+    margin-top: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 100px;
+    font-size: 50px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+}
+.flecha:hover{
+    background-color:rgb(192, 177, 164);
+}

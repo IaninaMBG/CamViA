@@ -1,0 +1,182 @@
+body{
+    background: rgb(223, 203, 187);  
+}
+header{
+    color: rgb(205,207,212);
+    background-color:rgb(100, 90, 81);
+    font-family: 'Kaushan Script', cursive;  
+    text-align: center;
+    padding: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+    width: 95px;
+    height: 70px;
+    margin-top: -35px;
+}
+
+nav{
+    font-family:'DM Sans', sans-serif;
+    height: 50px;
+    background: rgba(143, 179, 235, 0.856);
+    width: 100%;
+    margin-top: 5px;
+    position: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+ul, ol{
+    list-style:none;
+}
+.menu > li{
+    float: left;
+}
+.menu li a{
+    color:rgb(207, 127, 127);
+    text-decoration:none;
+    display:block;
+    padding:10px 12px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif; 
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.menu li a:hover{
+    background-color:rgb(202, 202, 202);
+    color:rgb(185, 100, 100);
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.talleres{
+    font-family: 'DM Sans', sans-serif;
+    color:rgb(207, 127, 127);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.muestras{
+    font-family: 'DM Sans', sans-serif;
+    color:rgba(143, 179, 235, 0.856);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card-deck{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.card{
+    background-color: rgb(100, 90, 81);
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-right: 110px;
+    width: 400px;
+}
+.card-title{
+    background-color: rgb(205,207,212);
+    padding: 15px 10px;
+    font-size: 25px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive; 
+}
+
+.card-text{
+    font-family: 'DM Sans', sans-serif;
+    margin: 15px 30px;
+    font-size: 20px;
+}
+.card-img-top{
+    width: 400px;
+    height: 200px;
+}
+.card-link{
+    margin: 20px 10px;
+    text-align: center;
+}
+.card-mas{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(207, 127, 127);
+    border: rgb(168, 95, 95) solid;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px 100px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.card-mas:hover{
+    color: rgb(180, 180, 180);
+    background-color: rgb(167, 101, 101);
+    border: rgb(99, 60, 60) solid;
+}
+.cardm-mas{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(143, 178, 235);
+    border: rgb(104, 129, 168) solid;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px 100px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.cardm-mas:hover{
+    color: rgb(180, 180, 180);
+    background-color: rgb(119, 147, 192);
+    border: rgb(67, 84, 110) solid;
+}
+.card-footer{
+    background-color: rgba(70, 62, 56, 0.712);
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-align: right;
+}
+.text-muted{
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(205,207,212);
+    margin: 15px 30px;
+    font-size: 15px;
+}
+.piedepagina{
+    margin-top: 20px;
+    background-color: rgb(205,207,212);
+}
+.redes-img{
+    width: 750px;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.redes{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(207, 127, 127);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.redes li{
+    display: inline;
+    margin: 100px;
+}
