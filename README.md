@@ -1,0 +1,2 @@
+# CamViA
+CamViA, un Campus Virtual Amigo, donde se encuentre todo lo necesario para la organización escolar de los estudiantes, profesores y del establecimiento educativo. Ordenando la información de la escuela, las clases, boletín, tareas, actividades extracurriculares, etc. El sitio web está pensado para nosotros, los alumnos y futuros ingresantes; con los comentarios y opiniones de exalumnos en todos los lugares posibles.
